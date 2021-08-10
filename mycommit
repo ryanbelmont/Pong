@@ -1,0 +1,8 @@
+#!/bin/bash
+
+pushd .
+cd /path/to/your/project
+git add .
+git commit -m "Update code"
+git push origin master
+popd
